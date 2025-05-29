@@ -23,7 +23,6 @@ function InfoSection({trip}) {
   return (
     <div>
       <img
-        loading="lazy"
         src={photoUrl ? photoUrl : "/public/road-trip-vacation.jpg"}
         className="h-[330px] w-full object-cover rounded-xl"
       />

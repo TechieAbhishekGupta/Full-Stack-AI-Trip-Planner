@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
+import Testimonials from "./Testimonials";
 
 function Hero() {
   return (
@@ -33,6 +34,7 @@ function Hero() {
         placeholder="Where do you want to go?"
         className="border px-4 py-2 rounded-lg shadow-sm mt-4 w-full max-w-md"
       />
+      <Testimonials></Testimonials>
     </div>
   );
 }
